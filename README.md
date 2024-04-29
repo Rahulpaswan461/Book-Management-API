@@ -32,7 +32,7 @@ This is a simple book management API built using Node.js following the MVC (Mode
 - PUT /api/books/:id: Update a book by ID.
 - DELETE /api/books/:id: Delete a book by ID.
 - GET /api/books?author=<author>: Filter books by author.
-- GET /api/books?publicationYear=<year>: Filter books by publication year.
+- GET /api/search?publicationYear=<year>: Filter books by publication year.
 
 
 # Security
