@@ -26,13 +26,14 @@ POST /user/signup: Register a new user.
 POST /user/signin: Log in with existing user credentials.
 
 ## Books
-GET /api/books: Get all books.
-GET /api/books/:id: Get a book by ID.
-POST /api/books: Create a new book.
-PUT /api/books/:id: Update a book by ID.
-DELETE /api/books/:id: Delete a book by ID.
-GET /api/books?author=<author>: Filter books by author.
-GET /api/books?publicationYear=<year>: Filter books by publication year.
+- GET /api/books: Get all books.
+- GET /api/books/:id: Get a book by ID.
+- POST /api/books: Create a new book.
+- PUT /api/books/:id: Update a book by ID.
+- DELETE /api/books/:id: Delete a book by ID.
+- GET /api/books?author=<author>: Filter books by author.
+- GET /api/books?publicationYear=<year>: Filter books by publication year.
+
 
 # Security
 Input validation is implemented to prevent malicious data.
