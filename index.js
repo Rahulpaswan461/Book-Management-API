@@ -23,7 +23,7 @@ app.use(cookieParser())
 app.use(checkForAuthenticationCookie("token"))
 app.use(express.urlencoded({extended:false}))
 
-app.use("/api",booksRouter)
+app.use("/api/books",booksRouter)
 app.use("/user",userRouter)
 
 app.listen(PORT,()=>{
