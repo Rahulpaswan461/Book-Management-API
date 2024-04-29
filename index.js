@@ -7,6 +7,7 @@ const cookieParser = require('cookie-parser');
 const userRouter = require("./routes/user")
 const booksRouter = require("./routes/books")
 const path = require("node:path")
+const searchRoute = require("./routes/search")
 
 
 mongoConnect(process.env.MONGO_URL)
@@ -25,6 +26,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use("/api/books",booksRouter)
 app.use("/user",userRouter)
+app.use("/api",searchRoute)
 
 app.listen(PORT,()=>{
      console.log("Server is running")

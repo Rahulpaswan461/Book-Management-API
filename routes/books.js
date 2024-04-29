@@ -1,7 +1,6 @@
 const express = require("express")
-const Books = require("../models/books")
-const fs = require("node:fs");
-const { addBookToLibaray, getAllBooksFromCollection, getBooksFromCollectionById, updateBookInformationById, deleteBookInformationById, searchBooks } = require("../controllers/books");
+const { addBookToLibaray, getAllBooksFromCollection, getBooksFromCollectionById, 
+    updateBookInformationById, deleteBookInformationById, searchBooks } = require("../controllers/books");
 
 const router = express.Router()
 
@@ -19,9 +18,6 @@ router.patch("/:id", updateBookInformationById);
  
 // delete the book information
 router.delete("/:id", deleteBookInformationById);
-
-// Filter books by author or publicationYear
-router.get("/search", searchBooks);
  
  
 module.exports = router
