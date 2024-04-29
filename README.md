@@ -2,26 +2,26 @@
 This is a simple book management API built using Node.js following the MVC (Model-View-Controller) architectural pattern.
 
 ## Features
-1.User authentication using cookies and JWT tokens.
-2.CRUD operations for managing book entries (title, author, publication year).
-3.Basic security measures implemented, including password hashing using the crypto module.
-4.Separation of concerns with distinct models for users and books.
-5.Use of middleware for authentication checks.
-6.Use of EJS for rendering some frontend views.
+- User authentication using cookies and JWT tokens.
+- CRUD operations for managing book entries (title, author, publication year).
+- Basic security measures implemented, including password hashing using the crypto module.
+- Separation of concerns with distinct models for users and books.
+- Use of middleware for authentication checks.
+- Use of EJS for rendering some frontend views.
 
 ## Getting Started
 ### Prerequisites
-Node.js installed on your machine.
-MongoDB database instance.
+- Node.js installed on your machine.
+- MongoDB database instance.
 
 ## Installation
-1.Clone the repository: git clone https://github.com/Rahulpaswan461/Book-Management-API
-2.Navigate to the project directory: cd Book-Management
-3.Install dependencies: npm install
+- Clone the repository: git clone https://github.com/Rahulpaswan461/Book-Management-API
+- Navigate to the project directory: cd Book-Management
+- Install dependencies: npm install
 
 # Usage
-1.Start the server: npm start
-2.Use API endpoints with tools like Postman or cURL.
+- Start the server: npm start
+- Use API endpoints with tools like Postman or cURL.
 - POST /user/signup: Register a new user.
 - POST /user/signin: Log in with existing user credentials.
 
