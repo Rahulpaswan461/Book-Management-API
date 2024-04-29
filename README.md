@@ -22,8 +22,8 @@ MongoDB database instance.
 # Usage
 1.Start the server: npm start
 2.Use API endpoints with tools like Postman or cURL.
-POST /user/signup: Register a new user.
-POST /user/signin: Log in with existing user credentials.
+- POST /user/signup: Register a new user.
+- POST /user/signin: Log in with existing user credentials.
 
 ## Books
 - GET /api/books: Get all books.
